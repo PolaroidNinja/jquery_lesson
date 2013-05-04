@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test Home</title>
+		<link rel="stylesheet" type="text/css" href= "css/style_2.css">
+
+	</head>
+	<body onload="boxForm.init()">
+		<div id="main">
+			<h1>Kelsey Development</h1>
+			<p>Welcome to an easy site building tool. Just enter the specs for your design, hit the submit button and view a sample of your new site.</p>
+			<h2>Mission Statement</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div id="boxes" class="section">
+				<h2>Fill in the Specs</h2>
+				<p>Fill out the specs and click the submit button.</p>
+				<form name="boxInput">
+                    <span id="heightError" class="error">Please input a number between 100 and 380</span>
+					<label>Height
+					<span class="small">Add a height between 100 and 380</span>
+  					</label>
+  					<input id="heightInput" type="text" name="height">
+                    <br>
+					
+                    <span id="widthError" class="error">Please input a number between 150 and 450</span>
+  					<label>Width
+					<span class="small">Add  a width between 150 and 450</span>
+  					</label>
+  					<input id="widthInput" type="text" name="width">
+                    <br>
+  					
+                    <span id="messageError" class="error">Please input a message.</span>
+  					<label>Message 
+					<span class="small">Add  a short message</span>
+  					</label>
+  					<input id="messageInput" type="text" name="message">
+                    <br>
+  					<span id="layoutError" class="error">Please select a color theme.</span>
+  					<div id="red" class="radioGroup red">
+  						<input type="radio" name="layout" id="RedBlk" value="red">Red with black border<br>
+  					</div>
+
+					<div id="yellow" class="radioGroup yellow">
+						<input type="radio" name="layout" id="YlwBlk" value="yellow">Yellow with black border<br>
+					</div>
+
+					<div id="orange" class="radioGroup orange">
+						<input type="radio" name="layout" id="OrgRed" value="orange">Orange with red border<br>
+					</div>
+
+					<div id="blue" class="radioGroup blue">
+						<input type="radio" name="layout" id="BluGrn" value="blue">Blue with green border<br>
+					</div>
+					
+  					<input type="button" value="Submit" id="button" onclick= "boxForm.submit()"><br>
+				</form>
+			</div>
+			<div id="sample" class="section">
+				<h2>View a Sample</h2>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/boxForm.js"></script>
+	</body>
+</html>

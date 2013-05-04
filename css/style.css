@@ -1,0 +1,146 @@
+html {
+	margin:0;
+	padding: 0px;
+	color:#000;
+	background-image: url(../assets/diagonal.jpg);
+}
+
+@font-face {
+	font-family: myriad_pro;
+	src: url('../assets/MyriadPro-Regular.otf')
+}
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width:1000px;
+	background:#585858;
+}
+
+	#main {
+			border: 1px solid #000000;
+		}
+
+		h1 {
+			font-family: myriad_pro, sans-serif;
+			font-size: 2.375em;
+			color: #F4FEFF;
+			margin: 0px;
+			padding: 20px 20px 10px;
+		}
+
+		h2 {
+			font-family: myriad_pro, sans-serif;
+			color: #F4FEFF;
+			margin: 0px;
+			padding: 20px 20px 10px;
+		}
+
+		p {
+			font-family: myriad_pro, sans-serif;
+			color: #F4FEFF;
+			margin: 0px;
+			padding: 0px 30px 20px;
+		}
+
+		#boxes {
+			border: 1px solid #A4A4A4;
+			width: 470px;
+			margin: 5px 0px 15px 15px;
+			display: inline-block;
+		}
+			form {
+				font-family: myriad_pro, sans-serif;
+				color: #F4FEFF;
+				margin: 0px;
+				padding: 5px 20px 20px;
+			}
+
+				label{
+					display:block;
+					text-align:right;
+					display: inline-block;
+					margin:0px auto;
+					width: 180px;
+				}
+
+				form .small{
+					display:block;
+					font-size:11px;
+					text-align:right;
+				}
+
+				#user {
+					font-size:12px;
+					padding:4px 2px;
+					margin:2px 0 10px 10px;
+					width: 200px;
+					top: -8px;
+					position: relative;
+				}
+
+				#red {
+					background-color: #8A0808;
+					border-style: solid;
+					border-width: 2px;
+					border-color: #000000;
+					width: 199px;
+					height: 25px;
+					margin: 2px 0 10px 115px;
+					text-align: left;
+					vertical-align: middle;
+					padding: 3px 0px 0px;
+				}
+
+				#yellow {
+					background-color: #AEB404;
+					border-style: solid;
+					border-width: 5px;
+					border-color: #000000;
+					width: 193px;
+					height: 19px;
+					margin: 2px 0 10px 115px;
+					text-align: left;
+					vertical-align: middle;
+					padding: 0px;
+				}
+
+				#orange {
+					background-color: #FF8000;
+					border-style: solid;
+					border-width: 3px;
+					border-color: #B40404;
+					width: 197px;
+					height: 23px;
+					margin: 2px 0 10px 115px;
+					text-align: left;
+					vertical-align: middle;
+					padding: 2px 0px 0px;
+				}
+
+				#blue {
+					background-color: #2E9AFE;
+					border-style: solid;
+					border-width: 4px;
+					border-color: #0B3B0B;
+					width: 195px;
+					height: 21px;
+					margin: 2px 0 10px 115px;
+					text-align: left;
+					vertical-align: middle;
+					padding: 1px 0px 0px;
+				}
+
+				#button {
+					margin: 2px 0 0px 185px;
+				}
+
+		#sample {
+			border: 1px solid #A4A4A4;
+			width: 470px;
+			height: 455px;
+			margin: 5px 0px 15px 20px;
+			display: inline-block;
+			vertical-align: top;
+			overflow: auto;
+		}

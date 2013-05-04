@@ -1,0 +1,141 @@
+html {
+	margin:0;
+	padding: 0px;
+	color:#000;
+	background-image: url(../assets/diagonal.jpg);
+}
+
+@font-face {
+	font-family: myriad_pro;
+	src: url('../assets/MyriadPro-Regular.otf')
+}
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width:1000px;
+	background:#585858;
+	font-family: myriad_pro, sans-serif;
+	color: #F4FEFF;
+}
+
+#main {
+	border: 1px solid #000000;
+}
+
+h1 {
+	font-size: 2.375em;
+	color: #F4FEFF;
+	margin: 0px;
+	padding: 20px 20px 10px;
+}
+
+h2 {
+	color: #F4FEFF;
+	margin: 0px;
+	padding: 20px 20px 10px;
+}
+
+p {
+	
+	margin: 0px;
+	padding: 0px 30px 20px;
+}
+
+.section {
+	border: 1px solid #A4A4A4;
+	width: 470px;
+	margin: 5px 0px 15px 15px;
+	display: inline-block;
+	min-height: 450px;
+	vertical-align: top;
+}
+
+form {
+	margin: 0px;
+	padding: 5px 20px 20px;
+}
+
+label{
+	display:block;
+	text-align:right;
+	display: inline-block;
+	margin:0px auto;
+	width: 180px;
+}
+
+span.small{
+	display:block;
+	font-size:11px;
+	text-align:right;
+}
+
+input[type="text"] {
+	font-size:12px;
+	padding:4px 2px;
+	margin:2px 0 10px 10px;
+	width: 200px;
+	top: -8px;
+	position: relative;
+}
+
+.radioGroup {
+	border: 2px solid;
+	width: 196px;
+	height: 21px;
+	margin: 2px 0 10px 115px;
+	text-align: left;
+	vertical-align: middle;
+	padding: 3px 0px 0px;
+}
+
+.generatedBox {
+	border: 2px solid;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.generatedBox .counter {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.red {
+	background-color: #8A0808;
+	border-color: #000000;
+}
+
+.yellow {
+	background-color: #AEB404;
+	border-color: #000000;
+}
+
+.orange {
+	background-color: #FF8000;
+	border-color: #B40404;
+}
+
+.blue {
+	background-color: #2E9AFE;
+	border-color: #0B3B0B;
+}
+
+#button {
+	margin: 2px 0 0px 185px;
+}
+
+#sample {
+	overflow: auto;
+}
+
+.error {
+	display: none;
+	color: red;
+
+}
+
+.error.visible {
+	display:block;
+}
